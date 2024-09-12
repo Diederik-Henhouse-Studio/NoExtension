@@ -1,0 +1,106 @@
+#add2notion {
+	background-color: blueviolet;
+	margin-right: 8px;
+}
+
+#add2notion:hover {
+	background-color: indigo;
+}
+
+#add2notion.saved {
+	background-color: transparent;
+	color: blueviolet;
+	margin-right: 8px;
+	box-shadow: inset 0 0 0 1px blueviolet;
+}
+
+#add2notion.saved:hover {
+	background-color: rgba(137, 43, 226, 0.2);
+	color: blueviolet;
+	margin-right: 8px;
+	box-shadow: inset 0 0 0 2px blueviolet;
+}
+
+#add2notion.twitter {
+	align-self: start;
+	margin-right: 0px;
+	margin-left: 8px;
+	border-radius: 20px;
+	height: 36px;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	font-size: 15px;
+	line-height: 20px;
+	border: none;
+	font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+		sans-serif;
+	color: white;
+	font-weight: 600;
+}
+
+
+#add2notion.twitter:hover {
+	background-color: rgba(137, 43, 226, 0.9);
+}
+
+#add2notion.twitter.saved {
+	background-color: rgba(137, 43, 226, 0.2);
+	color: blueviolet;
+	background-color: transparent;
+	margin-right: 0px;
+}
+
+#add2notion.twitter.saved:hover {
+	background-color: rgba(137, 43, 226, 0.2);
+	color: blueviolet;
+	margin-right: 0px;
+	box-shadow: inset 0 0 0 1px blueviolet;
+}
+
+/* #p2n.loading {
+	box-shadow: none !important;
+	font-weight: 400;
+} */
+
+.animate-spin {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 1000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 1000ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: spin;
+	-ms-animation-duration: 1000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	
+	animation-name: spin;
+	animation-duration: 1000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+	from { -ms-transform: rotate(0deg); }
+	to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	from {
+			transform:rotate(0deg);
+	}
+	to {
+			transform:rotate(360deg);
+	}
+}
